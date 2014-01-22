@@ -1,7 +1,7 @@
-<!DOCTYPE html>
 <html>
   <head>
     <!-- Flatdoc -->
+    <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src='http://rstacruz.github.io/flatdoc/v/0.8.0/legacy.js'></script>
     <script src='http://rstacruz.github.io/flatdoc/v/0.8.0/flatdoc.js'></script>
 
@@ -12,7 +12,7 @@
     <!-- Initializer -->
     <script>
       Flatdoc.run({
-        fetcher: Flatdoc.github('PhluantMobile/phluant_code_snippets')
+        fetcher: Flatdoc.github('PhluantMobile/phluant_code_snippets', 'markdown.md')
       });
     </script>
   </head>
